@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
 
         findViewById<Button>(R.id.revealButton).setOnClickListener {
-            GlobalScope.launch { startCoroutineTask() }
+            startCoroutineTask()
         }
     }
 }
