@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                     currentTextView.text = String.format(Locale.getDefault(), "Current opacity: %d", index)
                     cakeImageView.alpha = index / 100f
                 }
-                delay(40) // Non-blocking delay
+                delay(40)
             }
         }
     }
